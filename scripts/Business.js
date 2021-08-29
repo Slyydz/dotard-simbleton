@@ -8,3 +8,11 @@ export const Business = (businessObject) => {
         </section>
     `
 }
+
+export const Agent = (agentObject) => {
+    return `
+        <section class="purchase-agent">
+            <h2 class="agent-name">${agentObject.nameFirst} ${agentObject.nameLast}</h2>
+        </section>
+    `
+}

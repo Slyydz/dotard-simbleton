@@ -125,4 +125,8 @@ export const businessNY = () => {
     return isNY;
 }
 
+export const purchaseArray = businesses.map(mapVar => {
+  return mapVar.purchasingAgent;
+})
+
     
