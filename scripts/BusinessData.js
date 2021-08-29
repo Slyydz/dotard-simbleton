@@ -126,7 +126,11 @@ export const businessNY = () => {
 }
 
 export const purchaseArray = businesses.map(mapVar => {
-  return mapVar.purchasingAgent;
+  return {
+    name: mapVar.purchasingAgent,
+    company: mapVar.companyName,
+    phone: mapVar.phoneWork,
+  }
 })
 
     
